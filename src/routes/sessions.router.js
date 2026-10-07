@@ -1,9 +1,9 @@
 import { Router } from 'express';
-import { getSessionsPlaceholder } from '../controllers/sessions.controller.js';
+import { SessionsController } from '../controllers/sessions.controller.js';
 
 const router = Router();
+const sessionsController = new SessionsController();
 
-// Estructura inicial sin lógica de auth todavía
-router.get('/', getSessionsPlaceholder);
+router.post('/register', (req, res) => sessionsController.register(req, res));
 
 export default router;
