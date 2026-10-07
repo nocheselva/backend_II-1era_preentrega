@@ -15,4 +15,11 @@ Base arquitectónica de una API REST desarrollada con Node.js y Express, estruct
    ```bash
    git clone <url-de-tu-repositorio>
 
-   
+
+## 📸 Evidencias de Funcionamiento
+
+### 1. Respuesta del Endpoint en Postman (201 Created)
+![Postman](docs/cap1_back.png)
+
+### 2. Contraseña Hasheada en MongoDB Atlas
+![MongoDB Atlas](docs/cap2-back.png)
